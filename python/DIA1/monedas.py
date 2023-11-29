@@ -1,0 +1,5 @@
+co=float(input("INTRODUCE CANTIDAD EN PESOS COLOMBIANOS: "))
+pe=float(input("INTRODUCE CANTIDAD EN SOLES PERUANO: "))
+br=float(input("introduce cantidad en REAL BRASILEÑO: "))
+usd=(co/3955.18)+(pe/3.73)+(br/4.87)
+print(usd)
